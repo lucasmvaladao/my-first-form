@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela3</title>
+    <link rel="stylesheet" href="css/stle.css">
+</head>
+<body>
+    <main>
+        <canvas id="barra_topo"></canvas>
+        <canvas id="quadrado"></canvas>
+        <p id="inscrevase">Inscreva-se</p>
+
+        <form id="form_increver">
+            <label id="label">Nome</label><br>
+            <input type="text" id="input"><br>
+
+            <label id="label">Email</label><br>
+            <input type="text" id="input"><br>
+
+            <label id="label">Senha</label><br>
+            <input type="password" id="input"><br>
+
+            <img src="img/esconder.svg" alt="icone do olho" id="icone_olho">
+
+            <label id="label">CEP</label>
+            <label id="label_numero">Número</label>
+
+            <input type="text" id="input_cep">
+            <input type="text" id="input_numero">
+
+            <label id="label">Rua</label>
+            <input type="text" id="input">
+
+            <label id="label">Cidade</label><br>
+
+                <select id="select_cidade">
+                    <option value="">Selecione uma cidade</option>
+                    <option value="saopaulo">São Paulo</option>
+                    <option value="riodejaneiro">Rio de Janiero</option>
+                    <option value="salvador">Salvador</option>
+                    <option value="minasgerais">Minas Gerais</option>
+                </select>
+ 
+            <input type="checkbox" id="input_checkbox">
+            <p id="p_chackbox">Concordo com os Termos e Condições</p>
+
+            <input type="submit" id="botao_cadastra" value="Cadastrar Conta">
+        </form>
+    </main>
+</body>
+</html>
